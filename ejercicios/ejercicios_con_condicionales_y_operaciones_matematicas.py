@@ -186,7 +186,9 @@ diccionario22 = {
 }
 if diccionario22["edad"] > 18:
     diccionario22["edad"] = 21
-print("diccionario actualizado:", diccionario22)
+    print("diccionario actualizado:", diccionario22)
+else:
+    print("la edad no se modifica, sigue siendo:", diccionario22["edad"])
 
 # 23. Crea un diccionario con {"nombre": "Carlos"}. Si la clave “ciudad” no existe, agrégala con el valor “Bogotá” y muestra el diccionario. 
 diccionario23 = {
